@@ -3455,6 +3455,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8963990184578893644, guid: c4c71737b9a02e747a558ba3bb5d6899, type: 3}
+      propertyPath: m_Mass
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 9043131069494410084, guid: c4c71737b9a02e747a558ba3bb5d6899, type: 3}
       propertyPath: m_Name
       value: ball
@@ -3590,10 +3594,23 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5890879004722379939, guid: 08f753bc82b1bdf4092cf7b6553032c8, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890879004722379939, guid: 08f753bc82b1bdf4092cf7b6553032c8, type: 3}
+      propertyPath: m_LinearDrag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890879004722379939, guid: 08f753bc82b1bdf4092cf7b6553032c8, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890879004722379939, guid: 08f753bc82b1bdf4092cf7b6553032c8, type: 3}
       propertyPath: m_UseFullKinematicContacts
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7151313545864328906, guid: 08f753bc82b1bdf4092cf7b6553032c8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
